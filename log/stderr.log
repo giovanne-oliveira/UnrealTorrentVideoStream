@@ -1,0 +1,12 @@
+[Thu, 26 Jun 2014 17:07:33 GMT] ERROR 186.204.87.49 - - [Thu Jun 26 2014 13:07:33 GMT-0400 (EDT)] "GET /shows 1.1" 500 2364 "http://lab4.unrealdev.net:4000/?search=300" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+SyntaxError: Unexpected token <
+    at Object.parse (native)
+    at Request._callback (/root/yify/yify-pop/app/controllers/shows.js:32:26)
+    at Request.self.callback (/root/yify/yify-pop/node_modules/request/request.js:121:22)
+    at Request.emit (events.js:98:17)
+    at Request.<anonymous> (/root/yify/yify-pop/node_modules/request/request.js:978:14)
+    at Request.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (/root/yify/yify-pop/node_modules/request/request.js:929:12)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:929:16
+    at process._tickDomainCallback (node.js:463:13)

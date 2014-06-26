@@ -1,0 +1,17 @@
+{
+  "name": "yify-pop",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "request": "2.34.x",
+    "child": "*",
+    "getport": "0.1.x",
+    "moment": "*",
+    "adm-zip": "0.4.4",
+    "rimraf": "2.2.8"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.16"
+  }
+}
